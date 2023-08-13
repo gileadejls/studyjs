@@ -1,6 +1,6 @@
 const peso = document.querySelector("#peso")
 const altura = document.querySelector("#altura")
-const submit = document.querySelector("input[type='submit']")
+const submit = document.querySelector("#calcular")
 
 
 let pesoValue, alturaValue, result, validate = true;
@@ -8,7 +8,7 @@ let pesoValue, alturaValue, result, validate = true;
 function showIMC(resultValue){
     const form = document.querySelector("form")
     const span = document.createElement("span")
-    span.textContent = resultValue
+    span.textContent = `O resultado de seu IMC: ${resultValue}`
     form.appendChild(span)
 
 }

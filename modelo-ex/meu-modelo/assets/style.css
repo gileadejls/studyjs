@@ -49,14 +49,15 @@ form label{
 form input{
     padding: 1rem;
 }
-form input[type="submit"]{
+form button{
     transition: all .4s;
     background-color: rgb(240, 227, 227);
     border: none;
     font-size: 1rem;
     border-radius: 3px;
+    padding: 1rem;
 }
-form input[type="submit"]:hover{
+form button:hover{
     background-color: red;
     color: white;
 }
