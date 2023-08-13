@@ -60,3 +60,8 @@ form input[type="submit"]:hover{
     background-color: red;
     color: white;
 }
+
+form span{
+    background-color: rgb(84, 228, 142);
+    padding: 1rem;
+}
